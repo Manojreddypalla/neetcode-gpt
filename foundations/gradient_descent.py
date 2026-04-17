@@ -5,5 +5,5 @@ class Solution:
         for _ in range(iterations):
             gradient = 2*x
             x=x-learning_rate*gradient
-        return round(x,5)    
+        return round(x,5)  
         pass
